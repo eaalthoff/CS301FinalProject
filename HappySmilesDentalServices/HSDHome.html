@@ -4,58 +4,30 @@
     <link rel="stylesheet" type="text/css" href="HSD.css">
     <meta charset="UTF-8">
     <title>Happy Smiles Dentistry Services</title>
-    <script type="text/javascript">
-        function myFunction(x) {
-            x.classList.toggle("change");
-
-            var y = document.getElementById("mobile-menu");
-            if (y.style.display === "none") {
-                y.style.display = "block";
-            } else {
-                y.style.display = "none";
-            }
-    
-            
-         }
-        </script>
     </head>
     
     <body>
     
-      <header>
-        <nav>
-          <div id="navbar">
-            <div id="logo">
-              <div class="logo"><a href="HSDHome.html">Happy Smiles Dental Services</a></div>
+      <div class="nav-container">
+        <nav class="navbar">
+            <div id="navbar-logo"><a href="HSDHome.html">Happy Smiles Dental Services</a></div>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+               
     
-            </div>
-            <div id="links">
-              <a href="HSDLocations.php">Locations</a>
-              <a href="HSdDentists.php">Dentists</a>
-              <a href="HSDSchedule.php">Schedule An Appointment</a>
-              <a href="HSDAbout.html">About Us</a>
-              <a href="HSDContact.html">Contact Us</a>
-
-            </div>      
-            <div class="mobile-btn" onclick="myFunction(this)">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-            </div>
-            </div>
-          </nav>
-           <!-- Mobile Menu -->
-        <div id="mobile-menu" class="mobile-menu">
-          <ul class="mobile-links">
-            <li class="nav-list"><a href="HSDHome.html">Home</a></li>
-            <li class="nav-list"><a href="HSDLocations.php">Locations</a></li>
-            <li class="nav-list"><a href="HSDDentists.php">Dentists</a></li>
-            <li class="nav-list"><a href="HSDSchedule.php">Schedule an Appointment</a></li>
-            <li class="nav-list"><a href="HSDAbout.html">About Us</a></li>
-            <li class="nav-list"><a href="HSDContact.html">Contact</a></li>
-          </ul>
-        </div>
-      </header>
+        <ul class="nav-menu">
+          <li><a href="HSDLocations.php" class="nav-links">Locations</a></li>
+          <li><a href="HSDDentists.php" class="nav-links">Dentists</a></li>
+          <li><a href="HSDSchedule.php" class="nav-links">Schedule an Appointment</a></li>
+          <li><a href="HSDAbout.html" class="nav-links">About Us</a></li>
+          <li><a href="HSDContact.html" class="nav-links nav-links-btn">Contact Us</a></li>
+        </ul>
+      </nav>
+      </div>
+      <script src="HSDS.js"></script>
       <img src="homeHero.jpg" alt="home hero" style="width:100%">
       <div class="heading1">
       <h1>Happy Smiles Dentistry Services</h1></div>
