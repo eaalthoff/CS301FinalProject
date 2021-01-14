@@ -2,7 +2,6 @@
 <html> 
   <head> 
     <link href="HSD.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" /> 
-    <script src="HSDS.js"></script> 
     <meta charset="UTF-8"> <title>Happy Smiles Dentistry Services</title> 
   </head> 
   <body> 
@@ -28,6 +27,7 @@
         </ul> 
       </nav> 
     </div> 
+    <script src="HSDS.js"></script> 
 
       <img alt="Dentist Hero" style="width:100%;" src="dentistsHero.jpg">
 

@@ -299,6 +299,7 @@ h2{
     }
     .navbar {
       display: grid;
+      overflow: hidden;
       min-height: 100px;
       grid-auto-flow: column;
       background-color: #a981cc;
@@ -322,6 +323,7 @@ h2{
     }
     .nav-menu {
       display: grid;
+      overflow: hidden;
       grid-template-columns: repeat(5, auto);
       list-style: none;
       text-align: center;
@@ -381,11 +383,11 @@ h2{
         margin: 0;
         right: 0px;
         width: 100%;
-        position: absolute;
         top: 100px;
         left: -100%;
         opacity: 0;
         transition: all 0.5s ease;
+        overflow: hidden;
       }
       #navbar-logo{
         margin-left: 20px;
@@ -394,6 +396,7 @@ h2{
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
+
       }
       .nav-links{
         text-align: center;
